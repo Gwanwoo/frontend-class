@@ -1,7 +1,7 @@
 /**
  * 
  */
-console.log("FrontEnd-class .");
+console.log("FrontEnd-class - OOP 문제1");
 
 function Phone(model, Inc) {
 
@@ -41,6 +41,21 @@ console.log(YoungHee.name);
 var LiHee = new Person('Li-Hee', 25);
 console.log(liHee.name);
 
+
+console.log("FrontEnd-class - OOP 문제2");
+
+
+
+
+
+
+
+
+
+
+
+
+console.log("FrontEnd-class - OOP 문제3");
 Car.prototype.start = function() {
 	console.log('시동 걸림');
 	this.isStart = true;
