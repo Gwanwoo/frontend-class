@@ -40,7 +40,7 @@ var YoungHee = new Person('Young-hee', 24);
 console.log(YoungHee.name);
 var LiHee = new Person('Li-Hee', 25);
 console.log(liHee.name);
------------------------------------------------------------------------------------
+
 /*console.log("FrontEnd-class - OOP 문제2");
 
 var StaticClass = (function() {
