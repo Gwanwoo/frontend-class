@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<style>
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,select,textarea{margin: 0; padding: 0}
+
+fieldset,img {border: 0 none}
+
+dl,ul,ol,menu,li {list-style: none}
+
+blockquote,q {quotes: none}
+
+blockquote:before,blockquote:after,q:before,q:after {content: '';content: none}
+
+input,select,textarea,button {vertical-align: middle}
+
+body {background: #fff}
+
+body,th,td,input,select,textarea,button {font-size: 12px;line-height: 1.5em;font-family: '돋움', dotum, sans-serif;color: #333} /* color값은 디자인가이드에 맞게사용 */
+a {color: #333;text-decoration: none}
+
+a:active,a:hover {text-decoration: underline}
+
+address,caption,cite,code,dfn,em,var {font-style: normal;font-weight: normal}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display: block;margin: 0;} /* 추가 */
+#wrap {
+	float: left;
+	font-size: 13px;
+	font-family: '돋움';
+	font-weight: bold;
+	float: left;
+	width: 277px;
+	height: 318px;
+	float: left;
+}
+
+#tit_font {
+	float: left;
+	margin: 2px 0px 2px 17px;
+	font-size: 13px;
+	font-family: '돋움';
+	font-weight: bold;
+}
+
+#media {
+	float: left;
+	width: 277px;
+	height: 270px;
+}
+
+#index {
+	float: left;
+	width: 270px;
+	height: 50px;
+}
+
+#divBt {
+	float: left;
+	width: 230px;
+	height: 50px;
+}
+
+#buttons {
+	float: left;
+	text-align: center;
+	margin-left: 34%;
+}
+
+.hide {
+	float: left;
+	display: none;
+}
+
+li {
+	float: left;
+	margin: 5px 17px 5px 17px;
+	width: 100px;
+	height: 120px;
+}
+</style>
+</head>
+<body>
+	<article id="wrap" width="277" height="318">
+		<div id="top">
+			<h2 id="tit_font">오늘의 사진</h2>
+		</div>
+
+		<div id="media">
+
+			<ul id='media01' class="hide">
+
+
+			</ul>
+			<ul id="media02" class="">
+
+			</ul>
+		</div>
+		<div id="index">
+			<div id="buttons">
+				<input type="button" id="formerBt" value="<"> 1/2 <input
+					type="button" id="nextBt" value=">">
+			</div>
+		</div>
+
+	</article>
+	<script type="text/javascript" src="photo.js"></script>
+</body>
+
+</html>
