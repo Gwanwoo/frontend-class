@@ -1,6 +1,3 @@
-/**
- * 
- */
 var board = document.getElementById("board");
 
 var color;
@@ -25,7 +22,7 @@ for (var i = 0; i < 4; i++) {
 
 	}
 
-};
+}
 
 var paintRed = function(e) {
 
@@ -41,6 +38,6 @@ var paintRed = function(e) {
 	e.target.className += " red";
 	this.red = e.target;
 
-}
+};
 var red = null;
 board.addEventListener('click', paintRed);
