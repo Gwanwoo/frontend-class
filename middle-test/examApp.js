@@ -120,9 +120,14 @@ function addEvent(el, eType, fn, uC) {
 		el['on' + eType] = fn;
 	}
 }
+
+var beforeActive=getDom('news').parentElement;
+
 function clickHandler(e) {
 	var id = e.target.id;
-	var t = getDom(e.target.id + '_list');
+	beforeActive.setAttribute('class','');
+	var parentLi= e.target.parentElement;
+	var t = getDom(id + '_list');
 	var p = getDom('display_news');
 	for (var i = 0; i < p.childNodes.length; i++) {
 		var c = p.childNodes[i];
@@ -131,6 +136,8 @@ function clickHandler(e) {
 		}
 	}
 	t.setAttribute('class', 'z');
+	parentLi.setAttribute('class', 'active');
+	beforeActive=parentLi;
 }
 
 
