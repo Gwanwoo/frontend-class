@@ -1,7 +1,7 @@
 /**
  * 
  */
-<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+
 var doc_h = (window.innerHeight || self.innerHeight
 		|| document.documentElement.clientHeight || document.body.clientHeight);
 var doc_w = (window.innerWidth || self.innerWidth
