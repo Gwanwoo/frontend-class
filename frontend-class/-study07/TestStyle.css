@@ -1,0 +1,14 @@
+
+#wrap_all{
+  width:450px;
+}
+#container{
+	width:450px;
+  float: left;
+}
+
+#resultList{
+  margin-top: 30px;
+  float:left;
+}
+
